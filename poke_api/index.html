@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(12, 12, 11);
+            background-image:url(pokedex.jpg);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position-x:center;
+            max-width:100%;
+            min-width: 600px;
+            color:whitesmoke;
+            font-family: sans-serif;
+            width: 600px;
+            margin: auto;
+            padding-right: 0.7%;
+            padding-top: 197px;
+            
+        }
+        .container{
+        
+           background-color: rgba(0, 0, 0, 0.103);
+           display: flex;
+           float: right;
+           width: 143px;   
+           height: 110px; 
+           text-align: center;
+           margin:1px;
+           border: 1px rgba(0, 0, 0, 0.664) solid;
+           cursor: pointer;
+        
+          }
+           
+
+        p{
+         display: inline-block;
+         text-align: center;
+         font-size: 15pt;
+         margin-left: 2%;
+         margin-top: 0;
+         position: absolute;
+         color:#060606;
+        }
+    
+       .container:hover{
+            background-color:rgba(0, 0, 0, 0.281);
+        }
+
+        @media(max-width:600px){
+            body{
+                background-image:url(pokedex.jpg);
+                height: 100vh;
+                width: 600px;
+           }
+            .container{
+                width:130px;
+            }  
+            
+            #tabela{
+                margin-right:10%;
+            }
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="tabela"></div>
+    <script src="main.js"></script>
+</body>
+</html>   
+
+        
+       
+  
